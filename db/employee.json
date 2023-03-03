@@ -1,0 +1,8 @@
+[{
+    "type": "list",
+    "name": "choice",
+    "Message":"Where would you like to go?",
+    "choices": ["View departments", "View roles", "View employees",
+            "Add a department", "Add a role", "Add an employee", "Update employees role",
+            "exit"]
+}]
