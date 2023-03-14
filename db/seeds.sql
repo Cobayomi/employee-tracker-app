@@ -11,4 +11,4 @@ INSERT INTO role (title, salary, department_id) VALUES ("Sales person", 120000, 
 INSERT INTO employees (first_name, last_name, role_id) VALUES ("Siearra", "Randall", 1);
 INSERT INTO employees (first_name, last_name, role_id) VALUES ("Capri", "Weston", 2);
 INSERT INTO employees (first_name, last_name, role_id) VALUES ("Anthony", "December", 3);
-INSERT INTO employees (first_name, last_name, role_id) VALUES ("Shawn, Glover", 4);
+INSERT INTO employees (first_name, last_name, role_id) VALUES ("Shawn", "Glover", 4);
