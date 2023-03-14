@@ -24,8 +24,8 @@ const mainMenu = async () => {
         viewDepartment()
     } else if (answers.action === 'View role') {
         viewrole()
-    } else if (answers.action === 'View employee') {
-        viewemployee()
+    } else if (answers.action === 'View employees') {
+        viewemployees()
     } else if (answers.action === 'Add a department') {
         addDepartment()
     } else {
