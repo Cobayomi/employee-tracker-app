@@ -29,7 +29,7 @@ const init = async () => {
     } else if (answers.action === 'Add a department') {
         addDepartment()
     } else {
-        process.exit()
+        process.exit(0)
     }
 }
 
