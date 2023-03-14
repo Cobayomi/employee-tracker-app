@@ -1,4 +1,4 @@
-import inquirer from "inquirer";
+import inquirer from 'inquirer';
 import mysql from "mysql2";
 
 const connection = mysql.createconnection({
@@ -8,7 +8,7 @@ const connection = mysql.createconnection({
     datatbase: 'employees_db',
 })
 
-const init = async () => {
+const mainMenu = async () => {
     const answers = await inquirer.prompt([
         {
             type:'list',
